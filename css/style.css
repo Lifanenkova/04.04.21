@@ -18,13 +18,11 @@ h2 + p{
     background-color: rgb(245, 245, 189);
 }
 
-article{
+article + article{
     background-color:  rgb(108, 108, 250);
 }
 
-main + article{
-    background-color: white;
-}
+
 
 main p{
     text-shadow: orange 1px -3px 0.1em;
