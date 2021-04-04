@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+}
+
+body{
+    font-family: Georgia, 'Times New Roman', serif;
+}
+
+footer > ul{
+    border: 2px dotted rgb(2, 170, 2);
+}
+
+ul~p {
+    text-decoration: underline tomato wavy;
+}
+
+h2 + p{
+    background-color: rgb(245, 245, 189);
+}
+
+article{
+    background-color:  rgb(108, 108, 250);
+}
+
+main + article{
+    background-color: white;
+}
+
+main p{
+    text-shadow: orange 1px -3px 0.1em;
+}
+
